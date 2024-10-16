@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #1e1e1e; /* Fundo escuro */
+    color: #f5f5f5; /* Texto claro */
+}
+
+header {
+    background: #2d2d2d; /* Cabeçalho mais escuro */
+    text-align: center;
+    padding: 20px;
+    border-bottom: 1px solid #444;
+}
+
+.foto-perfil {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-top: 15px;
+    border: 3px solid gray; /* Borda clara para destacar a foto */
+}
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    background: #252526; /* Fundo mais claro para o conteúdo */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+
+h1, h2, h3 {
+    color: #4b9cd3; /* Azul claro */
+}
+
+h2 {
+    border-bottom: 2px solid #444;
+    padding-bottom: 5px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    padding: 5px 0;
+    border-bottom: 1px solid #444;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #2d2d2d;
+    color: #f5f5f5;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
